@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../fonts/Helvetica-Bold.ttf);
+}
+
+header {
+  padding: 2rem 2rem;
+}
+.container__header__top {
+  position: fixed;
+  padding: 9px 11px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+.container__internal_header_top {
+  display: flex;
+  width: 1070px;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.container_logo {
+  width: 130px;
+  margin-right: 21px;
+}
+.container_logo img {
+  width: 100%;
+  cursor: pointer;
+}
+.list_bar {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.list_bar li {
+  font-size: 13px;
+  margin: 11px;
+  cursor: pointer;
+  font-family: Helvetica;
+}
+.list_bar li:hover {
+  color: #158de8;
+}
+.container_btn_header {
+  display: flex;
+  align-items: center;
+}
+.container_btn_header img {
+  margin-right: 21px;
+  width: 111px;
+  cursor: pointer;
+}
+.btn_launchApp {
+  font-size: 15px;
+  font-family: "Helvetica";
+  text-decoration: none;
+  background-color: #158de8;
+  padding: 13px 30px;
+  border-radius: 30px;
+  color: #fff;
+}
